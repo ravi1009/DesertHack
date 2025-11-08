@@ -1,0 +1,30 @@
+services:
+  alpine-server-1:
+    image: alpine:latest
+    container_name: alpine-server-1
+    command: sh -c "echo 'Alpine Server 1 running' && tail -f /dev/null"
+    restart: unless-stopped
+
+  alpine-server-2:
+    image: alpine:latest
+    container_name: alpine-server-2
+    command: sh -c "echo 'Alpine Server 2 running' && tail -f /dev/null"
+    restart: unless-stopped
+
+  alpine-server-3:
+    image: alpine:latest
+    container_name: alpine-server-3
+    command: sh -c "echo 'Alpine Server 3 running' && tail -f /dev/null"
+    restart: unless-stopped
+
+  alpine-server-4:
+    image: alpine:latest
+    container_name: alpine-server-4
+    command: sh -c "echo 'Alpine Server 4 running' && tail -f /dev/null"
+    restart: unless-stopped
+
+  alpine-server-5:
+    image: alpine:latest
+    container_name: alpine-server-5
+    command: sh -c "echo 'Alpine Server 5 running' && tail -f /dev/null"
+    restart: unless-stopped
