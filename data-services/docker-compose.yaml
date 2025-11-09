@@ -1,30 +1,65 @@
 services:
-  alpine-server-1:
+  srv1:
     image: alpine:latest
-    container_name: alpine-server-1
-    command: sh -c "echo 'Alpine Server 1 running' && tail -f /dev/null"
-    restart: unless-stopped
+    container_name: srv1
+    working_dir: /app
+    command: sh -lc "sh ./start.sh"
+    environment:
+      ORGANIZATION_ID: "ORG-001"
+      SERVER_NAME: "srv1"
+      # START_SCRIPT: "run_load.py"   # <- uncomment to auto-run high load for this container
+    volumes:
+      - ./start.sh:/app/start.sh:ro
+      - ./gen_data_default.py:/app/gen_data_default.py:ro
+      - ./run_load.py:/app/run_load.py:ro
+    ports: ["8081:8000"]
+    networks: [lab]
 
-  alpine-server-2:
+  srv2:
     image: alpine:latest
-    container_name: alpine-server-2
-    command: sh -c "echo 'Alpine Server 2 running' && tail -f /dev/null"
-    restart: unless-stopped
+    container_name: srv2
+    working_dir: /app
+    command: sh -lc "sh ./start.sh"
+    environment:
+      ORGANIZATION_ID: "ORG-001"
+      SERVER_NAME: "srv2"
+    volumes:
+      - ./start.sh:/app/start.sh:ro
+      - ./gen_data_default.py:/app/gen_data_default.py:ro
+      - ./run_load.py:/app/run_load.py:ro
+    ports: ["8082:8000"]
+    networks: [lab]
 
-  alpine-server-3:
+  srv3:
     image: alpine:latest
-    container_name: alpine-server-3
-    command: sh -c "echo 'Alpine Server 3 running' && tail -f /dev/null"
-    restart: unless-stopped
+    container_name: srv3
+    working_dir: /app
+    command: sh -lc "sh ./start.sh"
+    environment:
+      ORGANIZATION_ID: "ORG-001"
+      SERVER_NAME: "srv3"
+    volumes:
+      - ./start.sh:/app/start.sh:ro
+      - ./gen_data_default.py:/app/gen_data_default.py:ro
+      - ./run_load.py:/app/run_load.py:ro
+    ports: ["8083:8000"]
+    networks: [lab]
 
-  alpine-server-4:
+  srv4:
     image: alpine:latest
-    container_name: alpine-server-4
-    command: sh -c "echo 'Alpine Server 4 running' && tail -f /dev/null"
-    restart: unless-stopped
+    container_name: srv4
+    working_dir: /app
+    command: sh -lc "sh ./start.sh"
+    environment:
+      ORGANIZATION_ID: "ORG-001"
+      SERVER_NAME: "srv4"
+    volumes:
+      - ./start.sh:/app/start.sh:ro
+      - ./gen_data_default.py:/app/gen_data_default.py:ro
+      - ./run_load.py:/app/run_load.py:ro
+    ports: ["8084:8000"]
+    networks: [lab]
 
-  alpine-server-5:
-    image: alpine:latest
-    container_name: alpine-server-5
-    command: sh -c "echo 'Alpine Server 5 running' && tail -f /dev/null"
-    restart: unless-stopped
+networks:
+  lab:
+    name: desert-hack-lab
