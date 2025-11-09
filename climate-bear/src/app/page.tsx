@@ -1,6 +1,6 @@
 import { HomePage } from "~/features/home";
 
-export const ClimateBearHomePage = () => {
+const ClimateBearHomePage = () => {
   return (
     <main className="min-h-screen">
       <HomePage />
