@@ -1,0 +1,2081 @@
+[
+  {
+    "organization_name": "TechCorp",
+    "server_count": 36,
+    "servers": [
+      {
+        "server_name": "techcorp-srv-001",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 508.35,
+        "service_count": 11,
+        "cpu_utilization": 79,
+        "memory_utilization": 58,
+        "disk_utilization": 50
+      },
+      {
+        "server_name": "techcorp-srv-002",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 426.98,
+        "service_count": 8,
+        "cpu_utilization": 78,
+        "memory_utilization": 54,
+        "disk_utilization": 52
+      },
+      {
+        "server_name": "techcorp-srv-003",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 442.62,
+        "service_count": 7,
+        "cpu_utilization": 79,
+        "memory_utilization": 64,
+        "disk_utilization": 67
+      },
+      {
+        "server_name": "techcorp-srv-004",
+        "cpu_architecture": "intel-xeon",
+        "average_power_consumption": 574.16,
+        "service_count": 9,
+        "cpu_utilization": 78,
+        "memory_utilization": 66,
+        "disk_utilization": 68
+      },
+      {
+        "server_name": "techcorp-srv-005",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 229.53,
+        "service_count": 4,
+        "cpu_utilization": 75,
+        "memory_utilization": 57,
+        "disk_utilization": 58
+      },
+      {
+        "server_name": "techcorp-srv-006",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 438.92,
+        "service_count": 7,
+        "cpu_utilization": 74,
+        "memory_utilization": 53,
+        "disk_utilization": 51
+      },
+      {
+        "server_name": "techcorp-srv-007",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 193.36,
+        "service_count": 2,
+        "cpu_utilization": 69,
+        "memory_utilization": 57,
+        "disk_utilization": 70
+      },
+      {
+        "server_name": "techcorp-srv-008",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 467.78,
+        "service_count": 9,
+        "cpu_utilization": 69,
+        "memory_utilization": 57,
+        "disk_utilization": 68
+      },
+      {
+        "server_name": "techcorp-srv-009",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 342.8,
+        "service_count": 12,
+        "cpu_utilization": 68,
+        "memory_utilization": 59,
+        "disk_utilization": 80
+      },
+      {
+        "server_name": "techcorp-srv-010",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 477.87,
+        "service_count": 10,
+        "cpu_utilization": 73,
+        "memory_utilization": 59,
+        "disk_utilization": 67
+      },
+      {
+        "server_name": "techcorp-srv-011",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 404.77,
+        "service_count": 7,
+        "cpu_utilization": 68,
+        "memory_utilization": 67,
+        "disk_utilization": 94
+      },
+      {
+        "server_name": "techcorp-srv-012",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 527.51,
+        "service_count": 10,
+        "cpu_utilization": 77,
+        "memory_utilization": 63,
+        "disk_utilization": 70
+      },
+      {
+        "server_name": "techcorp-srv-013",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 279.04,
+        "service_count": 8,
+        "cpu_utilization": 74,
+        "memory_utilization": 59,
+        "disk_utilization": 62
+      },
+      {
+        "server_name": "techcorp-srv-014",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 246.3,
+        "service_count": 2,
+        "cpu_utilization": 75,
+        "memory_utilization": 57,
+        "disk_utilization": 57
+      },
+      {
+        "server_name": "techcorp-srv-015",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 463.77,
+        "service_count": 8,
+        "cpu_utilization": 80,
+        "memory_utilization": 63,
+        "disk_utilization": 64
+      },
+      {
+        "server_name": "techcorp-srv-016",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 403.41,
+        "service_count": 6,
+        "cpu_utilization": 79,
+        "memory_utilization": 66,
+        "disk_utilization": 70
+      },
+      {
+        "server_name": "techcorp-srv-017",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 465.58,
+        "service_count": 12,
+        "cpu_utilization": 81,
+        "memory_utilization": 67,
+        "disk_utilization": 64
+      },
+      {
+        "server_name": "techcorp-srv-018",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 407.13,
+        "service_count": 5,
+        "cpu_utilization": 79,
+        "memory_utilization": 69,
+        "disk_utilization": 76
+      },
+      {
+        "server_name": "techcorp-srv-019",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 335.27,
+        "service_count": 3,
+        "cpu_utilization": 80,
+        "memory_utilization": 68,
+        "disk_utilization": 72
+      },
+      {
+        "server_name": "techcorp-srv-020",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 285.12,
+        "service_count": 5,
+        "cpu_utilization": 73,
+        "memory_utilization": 69,
+        "disk_utilization": 88
+      },
+      {
+        "server_name": "techcorp-srv-021",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 409.44,
+        "service_count": 11,
+        "cpu_utilization": 75,
+        "memory_utilization": 70,
+        "disk_utilization": 87
+      },
+      {
+        "server_name": "techcorp-srv-022",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 552.27,
+        "service_count": 10,
+        "cpu_utilization": 70,
+        "memory_utilization": 66,
+        "disk_utilization": 90
+      },
+      {
+        "server_name": "techcorp-srv-023",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 602.54,
+        "service_count": 12,
+        "cpu_utilization": 69,
+        "memory_utilization": 68,
+        "disk_utilization": 97
+      },
+      {
+        "server_name": "techcorp-srv-024",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 467.96,
+        "service_count": 8,
+        "cpu_utilization": 72,
+        "memory_utilization": 68,
+        "disk_utilization": 92
+      },
+      {
+        "server_name": "techcorp-srv-025",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 587.69,
+        "service_count": 11,
+        "cpu_utilization": 74,
+        "memory_utilization": 69,
+        "disk_utilization": 81
+      },
+      {
+        "server_name": "techcorp-srv-026",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 651.92,
+        "service_count": 11,
+        "cpu_utilization": 77,
+        "memory_utilization": 64,
+        "disk_utilization": 71
+      },
+      {
+        "server_name": "techcorp-srv-027",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 238.63,
+        "service_count": 2,
+        "cpu_utilization": 74,
+        "memory_utilization": 54,
+        "disk_utilization": 54
+      },
+      {
+        "server_name": "techcorp-srv-028",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 281.36,
+        "service_count": 4,
+        "cpu_utilization": 70,
+        "memory_utilization": 56,
+        "disk_utilization": 63
+      },
+      {
+        "server_name": "techcorp-srv-029",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 341.48,
+        "service_count": 5,
+        "cpu_utilization": 73,
+        "memory_utilization": 55,
+        "disk_utilization": 59
+      },
+      {
+        "server_name": "techcorp-srv-030",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 453.31,
+        "service_count": 10,
+        "cpu_utilization": 79,
+        "memory_utilization": 61,
+        "disk_utilization": 58
+      },
+      {
+        "server_name": "techcorp-srv-031",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 372.76,
+        "service_count": 4,
+        "cpu_utilization": 81,
+        "memory_utilization": 63,
+        "disk_utilization": 60
+      },
+      {
+        "server_name": "techcorp-srv-032",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 274.37,
+        "service_count": 2,
+        "cpu_utilization": 72,
+        "memory_utilization": 64,
+        "disk_utilization": 78
+      },
+      {
+        "server_name": "techcorp-srv-033",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 400.46,
+        "service_count": 8,
+        "cpu_utilization": 72,
+        "memory_utilization": 56,
+        "disk_utilization": 60
+      },
+      {
+        "server_name": "techcorp-srv-034",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 560.74,
+        "service_count": 12,
+        "cpu_utilization": 70,
+        "memory_utilization": 53,
+        "disk_utilization": 56
+      },
+      {
+        "server_name": "techcorp-srv-035",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 536.36,
+        "service_count": 12,
+        "cpu_utilization": 67,
+        "memory_utilization": 58,
+        "disk_utilization": 75
+      },
+      {
+        "server_name": "techcorp-srv-036",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 341.4,
+        "service_count": 6,
+        "cpu_utilization": 72,
+        "memory_utilization": 59,
+        "disk_utilization": 67
+      }
+    ]
+  },
+  {
+    "organization_name": "DataSystems",
+    "server_count": 42,
+    "servers": [
+      {
+        "server_name": "datasystems-srv-001",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 508.6,
+        "service_count": 11,
+        "cpu_utilization": 74,
+        "memory_utilization": 63,
+        "disk_utilization": 69
+      },
+      {
+        "server_name": "datasystems-srv-002",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 476.52,
+        "service_count": 7,
+        "cpu_utilization": 75,
+        "memory_utilization": 68,
+        "disk_utilization": 77
+      },
+      {
+        "server_name": "datasystems-srv-003",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 197.87,
+        "service_count": 1,
+        "cpu_utilization": 79,
+        "memory_utilization": 67,
+        "disk_utilization": 68
+      },
+      {
+        "server_name": "datasystems-srv-004",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 396.63,
+        "service_count": 6,
+        "cpu_utilization": 66,
+        "memory_utilization": 57,
+        "disk_utilization": 77
+      },
+      {
+        "server_name": "datasystems-srv-005",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 265.81,
+        "service_count": 1,
+        "cpu_utilization": 69,
+        "memory_utilization": 61,
+        "disk_utilization": 74
+      },
+      {
+        "server_name": "datasystems-srv-006",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 237.54,
+        "service_count": 4,
+        "cpu_utilization": 76,
+        "memory_utilization": 57,
+        "disk_utilization": 49
+      },
+      {
+        "server_name": "datasystems-srv-007",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 265.12,
+        "service_count": 5,
+        "cpu_utilization": 81,
+        "memory_utilization": 61,
+        "disk_utilization": 54
+      },
+      {
+        "server_name": "datasystems-srv-008",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 245.97,
+        "service_count": 2,
+        "cpu_utilization": 72,
+        "memory_utilization": 65,
+        "disk_utilization": 81
+      },
+      {
+        "server_name": "datasystems-srv-009",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 180.6,
+        "service_count": 3,
+        "cpu_utilization": 74,
+        "memory_utilization": 67,
+        "disk_utilization": 72
+      },
+      {
+        "server_name": "datasystems-srv-010",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 599.72,
+        "service_count": 10,
+        "cpu_utilization": 75,
+        "memory_utilization": 68,
+        "disk_utilization": 87
+      },
+      {
+        "server_name": "datasystems-srv-011",
+        "cpu_architecture": "intel-xeon",
+        "average_power_consumption": 622.14,
+        "service_count": 11,
+        "cpu_utilization": 64,
+        "memory_utilization": 51,
+        "disk_utilization": 65
+      },
+      {
+        "server_name": "datasystems-srv-012",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 558.6,
+        "service_count": 10,
+        "cpu_utilization": 68,
+        "memory_utilization": 58,
+        "disk_utilization": 72
+      },
+      {
+        "server_name": "datasystems-srv-013",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 300.21,
+        "service_count": 3,
+        "cpu_utilization": 71,
+        "memory_utilization": 65,
+        "disk_utilization": 81
+      },
+      {
+        "server_name": "datasystems-srv-014",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 436.65,
+        "service_count": 11,
+        "cpu_utilization": 81,
+        "memory_utilization": 71,
+        "disk_utilization": 73
+      },
+      {
+        "server_name": "datasystems-srv-015",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 354.09,
+        "service_count": 6,
+        "cpu_utilization": 81,
+        "memory_utilization": 66,
+        "disk_utilization": 62
+      },
+      {
+        "server_name": "datasystems-srv-016",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 388.75,
+        "service_count": 5,
+        "cpu_utilization": 76,
+        "memory_utilization": 63,
+        "disk_utilization": 66
+      },
+      {
+        "server_name": "datasystems-srv-017",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 168.81,
+        "service_count": 1,
+        "cpu_utilization": 77,
+        "memory_utilization": 55,
+        "disk_utilization": 58
+      },
+      {
+        "server_name": "datasystems-srv-018",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 268.69,
+        "service_count": 2,
+        "cpu_utilization": 75,
+        "memory_utilization": 54,
+        "disk_utilization": 52
+      },
+      {
+        "server_name": "datasystems-srv-019",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 422.21,
+        "service_count": 8,
+        "cpu_utilization": 74,
+        "memory_utilization": 56,
+        "disk_utilization": 60
+      },
+      {
+        "server_name": "datasystems-srv-020",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 983.65,
+        "service_count": 11,
+        "cpu_utilization": 66,
+        "memory_utilization": 59,
+        "disk_utilization": 81
+      },
+      {
+        "server_name": "datasystems-srv-021",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 848.49,
+        "service_count": 10,
+        "cpu_utilization": 71,
+        "memory_utilization": 64,
+        "disk_utilization": 79
+      },
+      {
+        "server_name": "datasystems-srv-022",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 381.97,
+        "service_count": 10,
+        "cpu_utilization": 77,
+        "memory_utilization": 67,
+        "disk_utilization": 74
+      },
+      {
+        "server_name": "datasystems-srv-023",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 279.13,
+        "service_count": 2,
+        "cpu_utilization": 78,
+        "memory_utilization": 69,
+        "disk_utilization": 80
+      },
+      {
+        "server_name": "datasystems-srv-024",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 491.85,
+        "service_count": 3,
+        "cpu_utilization": 82,
+        "memory_utilization": 67,
+        "disk_utilization": 66
+      },
+      {
+        "server_name": "datasystems-srv-025",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 901.96,
+        "service_count": 10,
+        "cpu_utilization": 83,
+        "memory_utilization": 70,
+        "disk_utilization": 73
+      },
+      {
+        "server_name": "datasystems-srv-026",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 462.7,
+        "service_count": 11,
+        "cpu_utilization": 81,
+        "memory_utilization": 59,
+        "disk_utilization": 61
+      },
+      {
+        "server_name": "datasystems-srv-027",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 639.91,
+        "service_count": 11,
+        "cpu_utilization": 48,
+        "memory_utilization": 47,
+        "disk_utilization": 97
+      },
+      {
+        "server_name": "datasystems-srv-028",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 491.58,
+        "service_count": 8,
+        "cpu_utilization": 48,
+        "memory_utilization": 45,
+        "disk_utilization": 93
+      },
+      {
+        "server_name": "datasystems-srv-029",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 467.16,
+        "service_count": 8,
+        "cpu_utilization": 52,
+        "memory_utilization": 45,
+        "disk_utilization": 82
+      },
+      {
+        "server_name": "datasystems-srv-030",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 155.55,
+        "service_count": 1,
+        "cpu_utilization": 54,
+        "memory_utilization": 45,
+        "disk_utilization": 74
+      },
+      {
+        "server_name": "datasystems-srv-031",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 335.15,
+        "service_count": 6,
+        "cpu_utilization": 55,
+        "memory_utilization": 48,
+        "disk_utilization": 83
+      },
+      {
+        "server_name": "datasystems-srv-032",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 388.79,
+        "service_count": 4,
+        "cpu_utilization": 60,
+        "memory_utilization": 51,
+        "disk_utilization": 73
+      },
+      {
+        "server_name": "datasystems-srv-033",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 429.81,
+        "service_count": 10,
+        "cpu_utilization": 60,
+        "memory_utilization": 40,
+        "disk_utilization": 47
+      },
+      {
+        "server_name": "datasystems-srv-034",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 544.69,
+        "service_count": 12,
+        "cpu_utilization": 65,
+        "memory_utilization": 53,
+        "disk_utilization": 71
+      },
+      {
+        "server_name": "datasystems-srv-035",
+        "cpu_architecture": "intel-xeon",
+        "average_power_consumption": 299.56,
+        "service_count": 3,
+        "cpu_utilization": 71,
+        "memory_utilization": 63,
+        "disk_utilization": 81
+      },
+      {
+        "server_name": "datasystems-srv-036",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 354.97,
+        "service_count": 5,
+        "cpu_utilization": 72,
+        "memory_utilization": 54,
+        "disk_utilization": 54
+      },
+      {
+        "server_name": "datasystems-srv-037",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 477.63,
+        "service_count": 8,
+        "cpu_utilization": 76,
+        "memory_utilization": 58,
+        "disk_utilization": 56
+      },
+      {
+        "server_name": "datasystems-srv-038",
+        "cpu_architecture": "intel-xeon",
+        "average_power_consumption": 221.97,
+        "service_count": 2,
+        "cpu_utilization": 72,
+        "memory_utilization": 55,
+        "disk_utilization": 60
+      },
+      {
+        "server_name": "datasystems-srv-039",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 316.27,
+        "service_count": 6,
+        "cpu_utilization": 75,
+        "memory_utilization": 59,
+        "disk_utilization": 56
+      },
+      {
+        "server_name": "datasystems-srv-040",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 197.95,
+        "service_count": 3,
+        "cpu_utilization": 68,
+        "memory_utilization": 51,
+        "disk_utilization": 56
+      },
+      {
+        "server_name": "datasystems-srv-041",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 591.35,
+        "service_count": 11,
+        "cpu_utilization": 59,
+        "memory_utilization": 53,
+        "disk_utilization": 84
+      },
+      {
+        "server_name": "datasystems-srv-042",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 612.31,
+        "service_count": 12,
+        "cpu_utilization": 64,
+        "memory_utilization": 59,
+        "disk_utilization": 91
+      }
+    ]
+  },
+  {
+    "organization_name": "CloudServices",
+    "server_count": 32,
+    "servers": [
+      {
+        "server_name": "cloudservices-srv-001",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 484.1,
+        "service_count": 10,
+        "cpu_utilization": 64,
+        "memory_utilization": 46,
+        "disk_utilization": 55
+      },
+      {
+        "server_name": "cloudservices-srv-002",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 212.94,
+        "service_count": 3,
+        "cpu_utilization": 67,
+        "memory_utilization": 49,
+        "disk_utilization": 59
+      },
+      {
+        "server_name": "cloudservices-srv-003",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 225.88,
+        "service_count": 1,
+        "cpu_utilization": 75,
+        "memory_utilization": 57,
+        "disk_utilization": 64
+      },
+      {
+        "server_name": "cloudservices-srv-004",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 502.9,
+        "service_count": 9,
+        "cpu_utilization": 67,
+        "memory_utilization": 51,
+        "disk_utilization": 64
+      },
+      {
+        "server_name": "cloudservices-srv-005",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 606.75,
+        "service_count": 11,
+        "cpu_utilization": 68,
+        "memory_utilization": 65,
+        "disk_utilization": 91
+      },
+      {
+        "server_name": "cloudservices-srv-006",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 630.57,
+        "service_count": 11,
+        "cpu_utilization": 69,
+        "memory_utilization": 62,
+        "disk_utilization": 84
+      },
+      {
+        "server_name": "cloudservices-srv-007",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 514.37,
+        "service_count": 10,
+        "cpu_utilization": 74,
+        "memory_utilization": 66,
+        "disk_utilization": 80
+      },
+      {
+        "server_name": "cloudservices-srv-008",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 387.91,
+        "service_count": 10,
+        "cpu_utilization": 76,
+        "memory_utilization": 54,
+        "disk_utilization": 52
+      },
+      {
+        "server_name": "cloudservices-srv-009",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 325.72,
+        "service_count": 4,
+        "cpu_utilization": 73,
+        "memory_utilization": 55,
+        "disk_utilization": 56
+      },
+      {
+        "server_name": "cloudservices-srv-010",
+        "cpu_architecture": "intel-xeon",
+        "average_power_consumption": 457.47,
+        "service_count": 6,
+        "cpu_utilization": 66,
+        "memory_utilization": 53,
+        "disk_utilization": 68
+      },
+      {
+        "server_name": "cloudservices-srv-011",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 326.89,
+        "service_count": 5,
+        "cpu_utilization": 63,
+        "memory_utilization": 55,
+        "disk_utilization": 76
+      },
+      {
+        "server_name": "cloudservices-srv-012",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 343.41,
+        "service_count": 4,
+        "cpu_utilization": 56,
+        "memory_utilization": 56,
+        "disk_utilization": 94
+      },
+      {
+        "server_name": "cloudservices-srv-013",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 341.44,
+        "service_count": 5,
+        "cpu_utilization": 64,
+        "memory_utilization": 56,
+        "disk_utilization": 80
+      },
+      {
+        "server_name": "cloudservices-srv-014",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 287.91,
+        "service_count": 5,
+        "cpu_utilization": 68,
+        "memory_utilization": 60,
+        "disk_utilization": 81
+      },
+      {
+        "server_name": "cloudservices-srv-015",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 276.9,
+        "service_count": 6,
+        "cpu_utilization": 44,
+        "memory_utilization": 39,
+        "disk_utilization": 82
+      },
+      {
+        "server_name": "cloudservices-srv-016",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 349.91,
+        "service_count": 10,
+        "cpu_utilization": 45,
+        "memory_utilization": 40,
+        "disk_utilization": 82
+      },
+      {
+        "server_name": "cloudservices-srv-017",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 373.2,
+        "service_count": 10,
+        "cpu_utilization": 56,
+        "memory_utilization": 42,
+        "disk_utilization": 61
+      },
+      {
+        "server_name": "cloudservices-srv-018",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 388.3,
+        "service_count": 5,
+        "cpu_utilization": 67,
+        "memory_utilization": 43,
+        "disk_utilization": 52
+      },
+      {
+        "server_name": "cloudservices-srv-019",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 393.76,
+        "service_count": 12,
+        "cpu_utilization": 62,
+        "memory_utilization": 50,
+        "disk_utilization": 66
+      },
+      {
+        "server_name": "cloudservices-srv-020",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 262.14,
+        "service_count": 5,
+        "cpu_utilization": 63,
+        "memory_utilization": 40,
+        "disk_utilization": 59
+      },
+      {
+        "server_name": "cloudservices-srv-021",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 516.21,
+        "service_count": 4,
+        "cpu_utilization": 66,
+        "memory_utilization": 38,
+        "disk_utilization": 34
+      },
+      {
+        "server_name": "cloudservices-srv-022",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 209.6,
+        "service_count": 2,
+        "cpu_utilization": 59,
+        "memory_utilization": 43,
+        "disk_utilization": 61
+      },
+      {
+        "server_name": "cloudservices-srv-023",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 394.06,
+        "service_count": 11,
+        "cpu_utilization": 59,
+        "memory_utilization": 50,
+        "disk_utilization": 82
+      },
+      {
+        "server_name": "cloudservices-srv-024",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 292.95,
+        "service_count": 6,
+        "cpu_utilization": 74,
+        "memory_utilization": 61,
+        "disk_utilization": 67
+      },
+      {
+        "server_name": "cloudservices-srv-025",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 337.28,
+        "service_count": 6,
+        "cpu_utilization": 65,
+        "memory_utilization": 55,
+        "disk_utilization": 78
+      },
+      {
+        "server_name": "cloudservices-srv-026",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 214.61,
+        "service_count": 3,
+        "cpu_utilization": 68,
+        "memory_utilization": 52,
+        "disk_utilization": 66
+      },
+      {
+        "server_name": "cloudservices-srv-027",
+        "cpu_architecture": "intel-xeon",
+        "average_power_consumption": 299.53,
+        "service_count": 4,
+        "cpu_utilization": 61,
+        "memory_utilization": 37,
+        "disk_utilization": 44
+      },
+      {
+        "server_name": "cloudservices-srv-028",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 256.28,
+        "service_count": 5,
+        "cpu_utilization": 59,
+        "memory_utilization": 34,
+        "disk_utilization": 36
+      },
+      {
+        "server_name": "cloudservices-srv-029",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 376.4,
+        "service_count": 11,
+        "cpu_utilization": 58,
+        "memory_utilization": 39,
+        "disk_utilization": 47
+      },
+      {
+        "server_name": "cloudservices-srv-030",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 262.44,
+        "service_count": 4,
+        "cpu_utilization": 63,
+        "memory_utilization": 50,
+        "disk_utilization": 67
+      },
+      {
+        "server_name": "cloudservices-srv-031",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 444.35,
+        "service_count": 7,
+        "cpu_utilization": 60,
+        "memory_utilization": 56,
+        "disk_utilization": 89
+      },
+      {
+        "server_name": "cloudservices-srv-032",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 373.07,
+        "service_count": 8,
+        "cpu_utilization": 54,
+        "memory_utilization": 48,
+        "disk_utilization": 79
+      }
+    ]
+  },
+  {
+    "organization_name": "NetOps",
+    "server_count": 36,
+    "servers": [
+      {
+        "server_name": "netops-srv-001",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 696.4,
+        "service_count": 6,
+        "cpu_utilization": 59,
+        "memory_utilization": 56,
+        "disk_utilization": 92
+      },
+      {
+        "server_name": "netops-srv-002",
+        "cpu_architecture": "intel-xeon",
+        "average_power_consumption": 211.56,
+        "service_count": 3,
+        "cpu_utilization": 59,
+        "memory_utilization": 41,
+        "disk_utilization": 65
+      },
+      {
+        "server_name": "netops-srv-003",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 208.04,
+        "service_count": 2,
+        "cpu_utilization": 56,
+        "memory_utilization": 36,
+        "disk_utilization": 44
+      },
+      {
+        "server_name": "netops-srv-004",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 390.4,
+        "service_count": 11,
+        "cpu_utilization": 64,
+        "memory_utilization": 34,
+        "disk_utilization": 40
+      },
+      {
+        "server_name": "netops-srv-005",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 512.57,
+        "service_count": 12,
+        "cpu_utilization": 55,
+        "memory_utilization": 23,
+        "disk_utilization": 34
+      },
+      {
+        "server_name": "netops-srv-006",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 382.99,
+        "service_count": 11,
+        "cpu_utilization": 67,
+        "memory_utilization": 39,
+        "disk_utilization": 40
+      },
+      {
+        "server_name": "netops-srv-007",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 492.64,
+        "service_count": 9,
+        "cpu_utilization": 70,
+        "memory_utilization": 52,
+        "disk_utilization": 54
+      },
+      {
+        "server_name": "netops-srv-008",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 189.33,
+        "service_count": 2,
+        "cpu_utilization": 76,
+        "memory_utilization": 58,
+        "disk_utilization": 59
+      },
+      {
+        "server_name": "netops-srv-009",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 521.44,
+        "service_count": 9,
+        "cpu_utilization": 75,
+        "memory_utilization": 63,
+        "disk_utilization": 71
+      },
+      {
+        "server_name": "netops-srv-010",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 371.04,
+        "service_count": 6,
+        "cpu_utilization": 75,
+        "memory_utilization": 62,
+        "disk_utilization": 69
+      },
+      {
+        "server_name": "netops-srv-011",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 263.47,
+        "service_count": 3,
+        "cpu_utilization": 64,
+        "memory_utilization": 57,
+        "disk_utilization": 80
+      },
+      {
+        "server_name": "netops-srv-012",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 277.87,
+        "service_count": 3,
+        "cpu_utilization": 73,
+        "memory_utilization": 60,
+        "disk_utilization": 66
+      },
+      {
+        "server_name": "netops-srv-013",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 311.81,
+        "service_count": 4,
+        "cpu_utilization": 63,
+        "memory_utilization": 55,
+        "disk_utilization": 85
+      },
+      {
+        "server_name": "netops-srv-014",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 473.31,
+        "service_count": 6,
+        "cpu_utilization": 39,
+        "memory_utilization": 7,
+        "disk_utilization": 29
+      },
+      {
+        "server_name": "netops-srv-015",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 276.68,
+        "service_count": 9,
+        "cpu_utilization": 46,
+        "memory_utilization": 20,
+        "disk_utilization": 44
+      },
+      {
+        "server_name": "netops-srv-016",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 350.06,
+        "service_count": 11,
+        "cpu_utilization": 52,
+        "memory_utilization": 45,
+        "disk_utilization": 80
+      },
+      {
+        "server_name": "netops-srv-017",
+        "cpu_architecture": "intel-xeon",
+        "average_power_consumption": 299.43,
+        "service_count": 3,
+        "cpu_utilization": 44,
+        "memory_utilization": 36,
+        "disk_utilization": 66
+      },
+      {
+        "server_name": "netops-srv-018",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 259.73,
+        "service_count": 4,
+        "cpu_utilization": 41,
+        "memory_utilization": 21,
+        "disk_utilization": 49
+      },
+      {
+        "server_name": "netops-srv-019",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 423.84,
+        "service_count": 10,
+        "cpu_utilization": 39,
+        "memory_utilization": 31,
+        "disk_utilization": 74
+      },
+      {
+        "server_name": "netops-srv-020",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 332.26,
+        "service_count": 7,
+        "cpu_utilization": 39,
+        "memory_utilization": 36,
+        "disk_utilization": 84
+      },
+      {
+        "server_name": "netops-srv-021",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 306.61,
+        "service_count": 7,
+        "cpu_utilization": 38,
+        "memory_utilization": 31,
+        "disk_utilization": 73
+      },
+      {
+        "server_name": "netops-srv-022",
+        "cpu_architecture": "intel-xeon",
+        "average_power_consumption": 677.89,
+        "service_count": 12,
+        "cpu_utilization": 35,
+        "memory_utilization": 34,
+        "disk_utilization": 95
+      },
+      {
+        "server_name": "netops-srv-023",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 246.79,
+        "service_count": 7,
+        "cpu_utilization": 46,
+        "memory_utilization": 42,
+        "disk_utilization": 95
+      },
+      {
+        "server_name": "netops-srv-024",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 441.49,
+        "service_count": 8,
+        "cpu_utilization": 50,
+        "memory_utilization": 32,
+        "disk_utilization": 61
+      },
+      {
+        "server_name": "netops-srv-025",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 241.82,
+        "service_count": 5,
+        "cpu_utilization": 54,
+        "memory_utilization": 28,
+        "disk_utilization": 39
+      },
+      {
+        "server_name": "netops-srv-026",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 263.17,
+        "service_count": 6,
+        "cpu_utilization": 55,
+        "memory_utilization": 34,
+        "disk_utilization": 43
+      },
+      {
+        "server_name": "netops-srv-027",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 287.14,
+        "service_count": 3,
+        "cpu_utilization": 59,
+        "memory_utilization": 39,
+        "disk_utilization": 54
+      },
+      {
+        "server_name": "netops-srv-028",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 371.46,
+        "service_count": 2,
+        "cpu_utilization": 59,
+        "memory_utilization": 23,
+        "disk_utilization": 28
+      },
+      {
+        "server_name": "netops-srv-029",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 609.65,
+        "service_count": 7,
+        "cpu_utilization": 51,
+        "memory_utilization": 23,
+        "disk_utilization": 46
+      },
+      {
+        "server_name": "netops-srv-030",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 284.04,
+        "service_count": 2,
+        "cpu_utilization": 56,
+        "memory_utilization": 47,
+        "disk_utilization": 70
+      },
+      {
+        "server_name": "netops-srv-031",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 179,
+        "service_count": 2,
+        "cpu_utilization": 52,
+        "memory_utilization": 42,
+        "disk_utilization": 68
+      },
+      {
+        "server_name": "netops-srv-032",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 504.94,
+        "service_count": 9,
+        "cpu_utilization": 46,
+        "memory_utilization": 34,
+        "disk_utilization": 66
+      },
+      {
+        "server_name": "netops-srv-033",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 237.49,
+        "service_count": 1,
+        "cpu_utilization": 46,
+        "memory_utilization": 42,
+        "disk_utilization": 90
+      },
+      {
+        "server_name": "netops-srv-034",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 478.99,
+        "service_count": 10,
+        "cpu_utilization": 56,
+        "memory_utilization": 49,
+        "disk_utilization": 71
+      },
+      {
+        "server_name": "netops-srv-035",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 302.6,
+        "service_count": 5,
+        "cpu_utilization": 55,
+        "memory_utilization": 39,
+        "disk_utilization": 59
+      },
+      {
+        "server_name": "netops-srv-036",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 262.28,
+        "service_count": 3,
+        "cpu_utilization": 45,
+        "memory_utilization": 27,
+        "disk_utilization": 49
+      }
+    ]
+  },
+  {
+    "organization_name": "ServerFarm",
+    "server_count": 39,
+    "servers": [
+      {
+        "server_name": "serverfarm-srv-001",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 327.28,
+        "service_count": 8,
+        "cpu_utilization": 44,
+        "memory_utilization": 24,
+        "disk_utilization": 49
+      },
+      {
+        "server_name": "serverfarm-srv-002",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 287.73,
+        "service_count": 4,
+        "cpu_utilization": 46,
+        "memory_utilization": 26,
+        "disk_utilization": 46
+      },
+      {
+        "server_name": "serverfarm-srv-003",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 199.4,
+        "service_count": 1,
+        "cpu_utilization": 50,
+        "memory_utilization": 33,
+        "disk_utilization": 53
+      },
+      {
+        "server_name": "serverfarm-srv-004",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 333.95,
+        "service_count": 5,
+        "cpu_utilization": 51,
+        "memory_utilization": 37,
+        "disk_utilization": 52
+      },
+      {
+        "server_name": "serverfarm-srv-005",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 389.81,
+        "service_count": 8,
+        "cpu_utilization": 53,
+        "memory_utilization": 35,
+        "disk_utilization": 51
+      },
+      {
+        "server_name": "serverfarm-srv-006",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 425.86,
+        "service_count": 11,
+        "cpu_utilization": 51,
+        "memory_utilization": 38,
+        "disk_utilization": 64
+      },
+      {
+        "server_name": "serverfarm-srv-007",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 272.52,
+        "service_count": 4,
+        "cpu_utilization": 50,
+        "memory_utilization": 40,
+        "disk_utilization": 72
+      },
+      {
+        "server_name": "serverfarm-srv-008",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 266.36,
+        "service_count": 6,
+        "cpu_utilization": 21,
+        "memory_utilization": 16,
+        "disk_utilization": 66
+      },
+      {
+        "server_name": "serverfarm-srv-009",
+        "cpu_architecture": "intel-xeon",
+        "average_power_consumption": 496.68,
+        "service_count": 9,
+        "cpu_utilization": 32,
+        "memory_utilization": 19,
+        "disk_utilization": 67
+      },
+      {
+        "server_name": "serverfarm-srv-010",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 322.87,
+        "service_count": 8,
+        "cpu_utilization": 27,
+        "memory_utilization": 14,
+        "disk_utilization": 60
+      },
+      {
+        "server_name": "serverfarm-srv-011",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 316.83,
+        "service_count": 8,
+        "cpu_utilization": 38,
+        "memory_utilization": 32,
+        "disk_utilization": 75
+      },
+      {
+        "server_name": "serverfarm-srv-012",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 251.39,
+        "service_count": 7,
+        "cpu_utilization": 29,
+        "memory_utilization": 11,
+        "disk_utilization": 56
+      },
+      {
+        "server_name": "serverfarm-srv-013",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 201.7,
+        "service_count": 4,
+        "cpu_utilization": 17,
+        "memory_utilization": -1,
+        "disk_utilization": 48
+      },
+      {
+        "server_name": "serverfarm-srv-014",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 194.4,
+        "service_count": 5,
+        "cpu_utilization": 28,
+        "memory_utilization": 12,
+        "disk_utilization": 48
+      },
+      {
+        "server_name": "serverfarm-srv-015",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 325.68,
+        "service_count": 8,
+        "cpu_utilization": 33,
+        "memory_utilization": 20,
+        "disk_utilization": 58
+      },
+      {
+        "server_name": "serverfarm-srv-016",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 272.79,
+        "service_count": 7,
+        "cpu_utilization": 37,
+        "memory_utilization": 19,
+        "disk_utilization": 56
+      },
+      {
+        "server_name": "serverfarm-srv-017",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 377.97,
+        "service_count": 7,
+        "cpu_utilization": 40,
+        "memory_utilization": 28,
+        "disk_utilization": 69
+      },
+      {
+        "server_name": "serverfarm-srv-018",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 294.03,
+        "service_count": 7,
+        "cpu_utilization": 47,
+        "memory_utilization": 34,
+        "disk_utilization": 65
+      },
+      {
+        "server_name": "serverfarm-srv-019",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 220.75,
+        "service_count": 1,
+        "cpu_utilization": 34,
+        "memory_utilization": 12,
+        "disk_utilization": 42
+      },
+      {
+        "server_name": "serverfarm-srv-020",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 186.81,
+        "service_count": 3,
+        "cpu_utilization": 32,
+        "memory_utilization": 7,
+        "disk_utilization": 45
+      },
+      {
+        "server_name": "serverfarm-srv-021",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 853.63,
+        "service_count": 10,
+        "cpu_utilization": 35,
+        "memory_utilization": 32,
+        "disk_utilization": 80
+      },
+      {
+        "server_name": "serverfarm-srv-022",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 653.96,
+        "service_count": 11,
+        "cpu_utilization": 34,
+        "memory_utilization": 30,
+        "disk_utilization": 85
+      },
+      {
+        "server_name": "serverfarm-srv-023",
+        "cpu_architecture": "intel-xeon",
+        "average_power_consumption": 446.87,
+        "service_count": 8,
+        "cpu_utilization": 36,
+        "memory_utilization": 14,
+        "disk_utilization": 41
+      },
+      {
+        "server_name": "serverfarm-srv-024",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 495.87,
+        "service_count": 11,
+        "cpu_utilization": 40,
+        "memory_utilization": 27,
+        "disk_utilization": 66
+      },
+      {
+        "server_name": "serverfarm-srv-025",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 435.66,
+        "service_count": 11,
+        "cpu_utilization": 26,
+        "memory_utilization": 0,
+        "disk_utilization": 35
+      },
+      {
+        "server_name": "serverfarm-srv-026",
+        "cpu_architecture": "intel-xeon",
+        "average_power_consumption": 353.24,
+        "service_count": 6,
+        "cpu_utilization": 27,
+        "memory_utilization": -2,
+        "disk_utilization": 30
+      },
+      {
+        "server_name": "serverfarm-srv-027",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 182.87,
+        "service_count": 2,
+        "cpu_utilization": 28,
+        "memory_utilization": 13,
+        "disk_utilization": 67
+      },
+      {
+        "server_name": "serverfarm-srv-028",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 297.7,
+        "service_count": 7,
+        "cpu_utilization": 35,
+        "memory_utilization": 29,
+        "disk_utilization": 78
+      },
+      {
+        "server_name": "serverfarm-srv-029",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 423,
+        "service_count": 11,
+        "cpu_utilization": 30,
+        "memory_utilization": 5,
+        "disk_utilization": 38
+      },
+      {
+        "server_name": "serverfarm-srv-030",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 348.29,
+        "service_count": 9,
+        "cpu_utilization": 26,
+        "memory_utilization": 0,
+        "disk_utilization": 38
+      },
+      {
+        "server_name": "serverfarm-srv-031",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 186.87,
+        "service_count": 3,
+        "cpu_utilization": 28,
+        "memory_utilization": 15,
+        "disk_utilization": 59
+      },
+      {
+        "server_name": "serverfarm-srv-032",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 383.34,
+        "service_count": 7,
+        "cpu_utilization": 39,
+        "memory_utilization": 22,
+        "disk_utilization": 60
+      },
+      {
+        "server_name": "serverfarm-srv-033",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 303.59,
+        "service_count": 4,
+        "cpu_utilization": 47,
+        "memory_utilization": 45,
+        "disk_utilization": 86
+      },
+      {
+        "server_name": "serverfarm-srv-034",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 417.16,
+        "service_count": 8,
+        "cpu_utilization": 41,
+        "memory_utilization": 38,
+        "disk_utilization": 88
+      },
+      {
+        "server_name": "serverfarm-srv-035",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 168.07,
+        "service_count": 2,
+        "cpu_utilization": 35,
+        "memory_utilization": 30,
+        "disk_utilization": 78
+      },
+      {
+        "server_name": "serverfarm-srv-036",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 487.41,
+        "service_count": 12,
+        "cpu_utilization": 34,
+        "memory_utilization": 11,
+        "disk_utilization": 40
+      },
+      {
+        "server_name": "serverfarm-srv-037",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 214.26,
+        "service_count": 6,
+        "cpu_utilization": 38,
+        "memory_utilization": 27,
+        "disk_utilization": 59
+      },
+      {
+        "server_name": "serverfarm-srv-038",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 254.94,
+        "service_count": 4,
+        "cpu_utilization": 44,
+        "memory_utilization": 24,
+        "disk_utilization": 51
+      },
+      {
+        "server_name": "serverfarm-srv-039",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 505.23,
+        "service_count": 12,
+        "cpu_utilization": 21,
+        "memory_utilization": 2,
+        "disk_utilization": 48
+      }
+    ]
+  },
+  {
+    "organization_name": "DigitalWorks",
+    "server_count": 42,
+    "servers": [
+      {
+        "server_name": "digitalworks-srv-001",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 340.68,
+        "service_count": 5,
+        "cpu_utilization": 21,
+        "memory_utilization": 13,
+        "disk_utilization": 67
+      },
+      {
+        "server_name": "digitalworks-srv-002",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 419.48,
+        "service_count": 10,
+        "cpu_utilization": 14,
+        "memory_utilization": 1,
+        "disk_utilization": 56
+      },
+      {
+        "server_name": "digitalworks-srv-003",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 355.39,
+        "service_count": 6,
+        "cpu_utilization": 26,
+        "memory_utilization": 17,
+        "disk_utilization": 64
+      },
+      {
+        "server_name": "digitalworks-srv-004",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 357.03,
+        "service_count": 7,
+        "cpu_utilization": 22,
+        "memory_utilization": 18,
+        "disk_utilization": 66
+      },
+      {
+        "server_name": "digitalworks-srv-005",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 378.89,
+        "service_count": 11,
+        "cpu_utilization": 13,
+        "memory_utilization": -1,
+        "disk_utilization": 53
+      },
+      {
+        "server_name": "digitalworks-srv-006",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 299.13,
+        "service_count": 4,
+        "cpu_utilization": 23,
+        "memory_utilization": 17,
+        "disk_utilization": 74
+      },
+      {
+        "server_name": "digitalworks-srv-007",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 143.06,
+        "service_count": 1,
+        "cpu_utilization": 21,
+        "memory_utilization": 20,
+        "disk_utilization": 90
+      },
+      {
+        "server_name": "digitalworks-srv-008",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 343.92,
+        "service_count": 3,
+        "cpu_utilization": 20,
+        "memory_utilization": 14,
+        "disk_utilization": 86
+      },
+      {
+        "server_name": "digitalworks-srv-009",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 319.63,
+        "service_count": 5,
+        "cpu_utilization": 22,
+        "memory_utilization": 15,
+        "disk_utilization": 76
+      },
+      {
+        "server_name": "digitalworks-srv-010",
+        "cpu_architecture": "intel-xeon-e5420-disk-raid0",
+        "average_power_consumption": 340.96,
+        "service_count": 6,
+        "cpu_utilization": 20,
+        "memory_utilization": 12,
+        "disk_utilization": 69
+      },
+      {
+        "server_name": "digitalworks-srv-011",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 208.38,
+        "service_count": 2,
+        "cpu_utilization": 23,
+        "memory_utilization": 17,
+        "disk_utilization": 77
+      },
+      {
+        "server_name": "digitalworks-srv-012",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 660.95,
+        "service_count": 12,
+        "cpu_utilization": 15,
+        "memory_utilization": -5,
+        "disk_utilization": 55
+      },
+      {
+        "server_name": "digitalworks-srv-013",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 439.88,
+        "service_count": 10,
+        "cpu_utilization": 17,
+        "memory_utilization": 11,
+        "disk_utilization": 73
+      },
+      {
+        "server_name": "digitalworks-srv-014",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 290.33,
+        "service_count": 5,
+        "cpu_utilization": 9,
+        "memory_utilization": 9,
+        "disk_utilization": 71
+      },
+      {
+        "server_name": "digitalworks-srv-015",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 242.82,
+        "service_count": 4,
+        "cpu_utilization": 8,
+        "memory_utilization": -11,
+        "disk_utilization": 44
+      },
+      {
+        "server_name": "digitalworks-srv-016",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 337.8,
+        "service_count": 8,
+        "cpu_utilization": 17,
+        "memory_utilization": 6,
+        "disk_utilization": 63
+      },
+      {
+        "server_name": "digitalworks-srv-017",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 239.67,
+        "service_count": 2,
+        "cpu_utilization": 23,
+        "memory_utilization": 16,
+        "disk_utilization": 66
+      },
+      {
+        "server_name": "digitalworks-srv-018",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 296.68,
+        "service_count": 4,
+        "cpu_utilization": 20,
+        "memory_utilization": 14,
+        "disk_utilization": 71
+      },
+      {
+        "server_name": "digitalworks-srv-019",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 324.68,
+        "service_count": 12,
+        "cpu_utilization": 13,
+        "memory_utilization": -6,
+        "disk_utilization": 45
+      },
+      {
+        "server_name": "digitalworks-srv-020",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 166.19,
+        "service_count": 1,
+        "cpu_utilization": 19,
+        "memory_utilization": 16,
+        "disk_utilization": 70
+      },
+      {
+        "server_name": "digitalworks-srv-021",
+        "cpu_architecture": "intel-xeon",
+        "average_power_consumption": 594.55,
+        "service_count": 12,
+        "cpu_utilization": 34,
+        "memory_utilization": 29,
+        "disk_utilization": 85
+      },
+      {
+        "server_name": "digitalworks-srv-022",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 272.05,
+        "service_count": 4,
+        "cpu_utilization": 19,
+        "memory_utilization": 2,
+        "disk_utilization": 51
+      },
+      {
+        "server_name": "digitalworks-srv-023",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 159.81,
+        "service_count": 1,
+        "cpu_utilization": 11,
+        "memory_utilization": -4,
+        "disk_utilization": 60
+      },
+      {
+        "server_name": "digitalworks-srv-024",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 213.07,
+        "service_count": 7,
+        "cpu_utilization": 25,
+        "memory_utilization": 11,
+        "disk_utilization": 63
+      },
+      {
+        "server_name": "digitalworks-srv-025",
+        "cpu_architecture": "intel-xeon-x5550",
+        "average_power_consumption": 117.99,
+        "service_count": 1,
+        "cpu_utilization": 20,
+        "memory_utilization": 8,
+        "disk_utilization": 65
+      },
+      {
+        "server_name": "digitalworks-srv-026",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 300.17,
+        "service_count": 9,
+        "cpu_utilization": 21,
+        "memory_utilization": -2,
+        "disk_utilization": 41
+      },
+      {
+        "server_name": "digitalworks-srv-027",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 361.49,
+        "service_count": 9,
+        "cpu_utilization": 22,
+        "memory_utilization": 1,
+        "disk_utilization": 43
+      },
+      {
+        "server_name": "digitalworks-srv-028",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 381.18,
+        "service_count": 10,
+        "cpu_utilization": 28,
+        "memory_utilization": 8,
+        "disk_utilization": 43
+      },
+      {
+        "server_name": "digitalworks-srv-029",
+        "cpu_architecture": "intel-xeon-e5520",
+        "average_power_consumption": 232.81,
+        "service_count": 4,
+        "cpu_utilization": 36,
+        "memory_utilization": 15,
+        "disk_utilization": 45
+      },
+      {
+        "server_name": "digitalworks-srv-030",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 456.9,
+        "service_count": 9,
+        "cpu_utilization": 30,
+        "memory_utilization": 20,
+        "disk_utilization": 72
+      },
+      {
+        "server_name": "digitalworks-srv-031",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 720.2,
+        "service_count": 12,
+        "cpu_utilization": 44,
+        "memory_utilization": 41,
+        "disk_utilization": 95
+      },
+      {
+        "server_name": "digitalworks-srv-032",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 337.44,
+        "service_count": 7,
+        "cpu_utilization": 34,
+        "memory_utilization": 13,
+        "disk_utilization": 47
+      },
+      {
+        "server_name": "digitalworks-srv-033",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 716.15,
+        "service_count": 11,
+        "cpu_utilization": 17,
+        "memory_utilization": 5,
+        "disk_utilization": 59
+      },
+      {
+        "server_name": "digitalworks-srv-034",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 523.95,
+        "service_count": 8,
+        "cpu_utilization": 15,
+        "memory_utilization": 3,
+        "disk_utilization": 58
+      },
+      {
+        "server_name": "digitalworks-srv-035",
+        "cpu_architecture": "amd-opteron-2214",
+        "average_power_consumption": 311.08,
+        "service_count": 7,
+        "cpu_utilization": 9,
+        "memory_utilization": -8,
+        "disk_utilization": 49
+      },
+      {
+        "server_name": "digitalworks-srv-036",
+        "cpu_architecture": "intel-xeon-e5420-ssd-noraid",
+        "average_power_consumption": 215.01,
+        "service_count": 5,
+        "cpu_utilization": 25,
+        "memory_utilization": 14,
+        "disk_utilization": 65
+      },
+      {
+        "server_name": "digitalworks-srv-037",
+        "cpu_architecture": "unknown",
+        "average_power_consumption": 291.4,
+        "service_count": 10,
+        "cpu_utilization": 21,
+        "memory_utilization": 3,
+        "disk_utilization": 49
+      },
+      {
+        "server_name": "digitalworks-srv-038",
+        "cpu_architecture": "intel-xeon-e5420-ssd-raid0",
+        "average_power_consumption": 365.85,
+        "service_count": 8,
+        "cpu_utilization": 24,
+        "memory_utilization": 6,
+        "disk_utilization": 49
+      },
+      {
+        "server_name": "digitalworks-srv-039",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 566.47,
+        "service_count": 5,
+        "cpu_utilization": 36,
+        "memory_utilization": 28,
+        "disk_utilization": 72
+      },
+      {
+        "server_name": "digitalworks-srv-040",
+        "cpu_architecture": "intel-xeon-x5355",
+        "average_power_consumption": 552.95,
+        "service_count": 6,
+        "cpu_utilization": 25,
+        "memory_utilization": 5,
+        "disk_utilization": 56
+      },
+      {
+        "server_name": "digitalworks-srv-041",
+        "cpu_architecture": "intel-xeon-x5650",
+        "average_power_consumption": 260.82,
+        "service_count": 2,
+        "cpu_utilization": 20,
+        "memory_utilization": 10,
+        "disk_utilization": 67
+      },
+      {
+        "server_name": "digitalworks-srv-042",
+        "cpu_architecture": "intel-xeon-e5420",
+        "average_power_consumption": 477.17,
+        "service_count": 10,
+        "cpu_utilization": 28,
+        "memory_utilization": 24,
+        "disk_utilization": 78
+      }
+    ]
+  }
+]

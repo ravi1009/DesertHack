@@ -9,14 +9,14 @@ export const CostAnalysis = () => {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div>
             <h2 className="mb-6 text-3xl font-bold text-balance md:text-4xl">
-              See exactly what {"you're"} paying for
+              See exactly what you&apos;re paying for
             </h2>
             <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
-              {
-                "Climate Bear connects to your cloud provider and maps every dollar spent to actual resource usage. Our cost-benefit engine calculates the optimal instance sizes based on your real usage patterns."
-              }
+              &quot;Climate Bear connects to your cloud provider and maps every
+              dollar spent to actual resource usage. Our cost-benefit engine
+              calculates the optimal instance sizes based on your real usage
+              patterns.&quot;
             </p>
-
             <div className="mb-8 space-y-4">
               <div className="flex items-start gap-3">
                 <div className="bg-accent/20 mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full">
@@ -64,7 +64,6 @@ export const CostAnalysis = () => {
                 </div>
               </div>
             </div>
-
             <Button
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90"
@@ -72,7 +71,6 @@ export const CostAnalysis = () => {
               See It In Action
             </Button>
           </div>
-
           <Card className="border-border bg-card p-8">
             <div className="space-y-6">
               <div>
@@ -83,9 +81,7 @@ export const CostAnalysis = () => {
                   $24,580
                 </div>
               </div>
-
               <div className="bg-border h-px" />
-
               <div className="space-y-4">
                 <div>
                   <div className="mb-2 flex items-center justify-between">
@@ -104,7 +100,6 @@ export const CostAnalysis = () => {
                     />
                   </div>
                 </div>
-
                 <div>
                   <div className="mb-2 flex items-center justify-between">
                     <span className="text-muted-foreground text-sm">
@@ -122,7 +117,6 @@ export const CostAnalysis = () => {
                     />
                   </div>
                 </div>
-
                 <div>
                   <div className="mb-2 flex items-center justify-between">
                     <span className="text-muted-foreground text-sm">
@@ -141,16 +135,14 @@ export const CostAnalysis = () => {
                   </div>
                 </div>
               </div>
-
               <div className="bg-border h-px" />
-
               <div className="bg-accent/10 rounded-lg p-4">
                 <div className="text-muted-foreground mb-1 text-sm">
                   Potential Monthly Savings
                 </div>
                 <div className="text-accent text-3xl font-bold">$11,200</div>
                 <div className="text-muted-foreground mt-2 text-sm">
-                  {"By rightsizing 12 underutilized instances"}
+                  By downsizing 12 underutilized instances
                 </div>
               </div>
             </div>
