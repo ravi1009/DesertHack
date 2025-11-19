@@ -40,8 +40,13 @@ export const Header = () => {
         </nav>
 
         <div className="flex items-center gap-3">
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
-            View Live Demo
+          <Button
+            className="bg-primary text-primary-foreground hover:bg-primary/90"
+            asChild
+          >
+            <Link href="/dancing-capybara-049-climate-bear">
+              View Live Demo
+            </Link>
           </Button>
         </div>
       </div>

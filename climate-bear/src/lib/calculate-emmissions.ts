@@ -1,6 +1,5 @@
 interface CPUType {
-  cpu_architecture: string;
-  average_power: number;
+  power: number;
 }
 
 interface CPUEmissions {
@@ -9,26 +8,21 @@ interface CPUEmissions {
 }
 
 function calculateEmissions(
-  data: CPUType[],
+  data: CPUType,
   timeIntervalSeconds: number,
-  emissionFactor: number,
-): Record<string, CPUEmissions> {
-  const totals: Record<string, CPUEmissions> = {};
-
+  emissionFactor = 0.37,
+) {
   const intervalHours = timeIntervalSeconds / 3600;
 
-  data.forEach((row) => {
-    const energy = (row.average_power * intervalHours) / 1000;
-    const co2 = energy * emissionFactor;
+  const energy = (data.power * intervalHours) / 1000;
+  const co2 = energy * emissionFactor;
 
-    const cpuTotal = totals[row.cpu_architecture] ?? { energyKwh: 0, co2Kg: 0 };
+  const cpuTotal: CPUEmissions = { energyKwh: 0, co2Kg: 0 };
 
-    cpuTotal.energyKwh += energy;
-    cpuTotal.co2Kg += co2;
-    totals[row.cpu_architecture] = cpuTotal;
-  });
+  cpuTotal.energyKwh += energy;
+  cpuTotal.co2Kg += co2;
 
-  return totals;
+  return { energyKwh: cpuTotal.energyKwh, co2Kg: cpuTotal.co2Kg };
 }
 
 export { type CPUType, type CPUEmissions, calculateEmissions };

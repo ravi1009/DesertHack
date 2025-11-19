@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import * as fs from "fs";
 
 interface Organization {
@@ -26,10 +27,17 @@ const cpuPowerRecords = cpuPowerLines
   .slice(1)
   .filter((line) => line.trim())
   .map((line) => {
-    const [cputype, cpupct, npts, sum, sum2, avgpower] = line.split(",");
+    const [
+      cputype = "unknown",
+      cpupct = "0",
+      npts = "0",
+      sum = "0",
+      sum2 = "0",
+      avgpower = "0",
+    ] = line.split(",");
     return {
-      cputype: cputype.trim(),
-      avgpower: parseFloat(avgpower),
+      cputype: cputype?.trim(),
+      avgpower: parseFloat(avgpower ?? ""),
     };
   });
 
@@ -40,7 +48,7 @@ const sysResourceRecords = sysResourceLines
   .slice(1)
   .filter((line) => line.trim())
   .map((line) => {
-    const [index, cpu, ram, disk, network] = line.split(",");
+    const [index, cpu = "0", ram = "0", disk = "0", network] = line.split(",");
     return {
       cpu: parseInt(cpu),
       ram: parseInt(ram),
@@ -74,14 +82,18 @@ for (const orgName of orgNames) {
     i++
   ) {
     const sysResource = sysResourceRecords[serverIndex];
+    if (!sysResource) continue;
+
     const cpuArch =
-      cpuArchitectures[Math.floor(Math.random() * cpuArchitectures.length)];
+      cpuArchitectures[Math.floor(Math.random() * cpuArchitectures.length)] ??
+      "unknown";
 
     // Get base power for this architecture
     const archRecords = cpuPowerRecords.filter((r) => r.cputype === cpuArch);
     const basePower =
       archRecords.length > 0
-        ? archRecords[Math.floor(Math.random() * archRecords.length)].avgpower
+        ? (archRecords[Math.floor(Math.random() * archRecords.length)]
+            ?.avgpower ?? 150)
         : 150;
 
     // Service count 1-12

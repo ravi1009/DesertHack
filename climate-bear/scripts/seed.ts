@@ -1,7 +1,7 @@
 import { db } from "../src/server/db";
 import { organizations, servers } from "../src/server/db/schema";
 import serverData from "../data/_server_data.json";
-import { adjectives, nouns } from "data/words";
+import { adjectives, nouns } from "~/lib/words";
 
 // --- Slug Generator Function ---
 function generateUniqueSlug(existingSlugs: Set<string>): string {
@@ -16,7 +16,7 @@ function generateUniqueSlug(existingSlugs: Set<string>): string {
     // Format the number to always have two digits (e.g., 3 becomes 03)
     const paddedNumber = String(randomNumber).padStart(2, "0");
 
-    slug = `${adjective}-${noun}-${paddedNumber}.climate-bear`;
+    slug = `${adjective}-${noun}-${paddedNumber}-climate-bear`;
     counter++;
     // Add a safeguard to prevent infinite loops in extremely rare cases
     // if all possible slugs are generated (not likely with these lists)
@@ -67,11 +67,9 @@ async function seed() {
           organizationId: org!.id,
           serverName: server.server_name,
           cpuArchitecture: server.cpu_architecture,
-          averagePowerConsumption: server.average_power_consumption,
-          serviceCount: server.service_count,
+          powerConsumption: server.average_power_consumption,
           cpuUtilization: server.cpu_utilization,
           memoryUtilization: server.memory_utilization,
-          diskUtilization: server.disk_utilization,
         })),
       );
     }
