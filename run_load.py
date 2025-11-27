@@ -3,12 +3,8 @@ import random
 import time
 import os
 from datetime import datetime
-from post_data import send_data
-
-
-# def post_data():
-
-
+# CPU architecture characteristics
+# formula power+consumption= basePower+ cpu_coeff_of_arch * cpu_usage + mem_coeff * mem_usage
 
 cpu_profiles = {
     "Intel i3": {"base_power": 50, "cpu_coeff": 0.9, "mem_coeff": 0.75},
@@ -16,7 +12,7 @@ cpu_profiles = {
     "Intel i7": {"base_power": 70, "cpu_coeff": 0.8, "mem_coeff": 0.55}
 }
 
-output_file = "cpu_memory_power_data.csv"
+output_file = "cpu_memory_power_high_load.csv"
 
 # If file doesn't exist, create it with a header
 if not os.path.exists(output_file):
@@ -24,6 +20,7 @@ if not os.path.exists(output_file):
         writer = csv.writer(file)
         writer.writerow(["Timestamp", "CPU_Architecture", "CPU_Usage(%)", "Memory_Usage(%)", "Power_Consumption(W)"])
 
+# print("🔥 Starting HIGH LOAD data generation (CPU & Memory 70–100%). Press Ctrl+C to stop.\n")
 
 try:
     while True:
@@ -33,11 +30,13 @@ try:
             writer = csv.writer(file)
 
             for cpu_name, params in cpu_profiles.items():
-                # Simulate CPU and memory usage
-                cpu_usage = random.uniform(5, 40)
-                mem_usage = max(0, min(100, cpu_usage * random.uniform(0.7, 1.2) + random.uniform(-10, 10)))
+                # Simulate high CPU and memory usage (70–100%)
+                cpu_usage = random.uniform(80, 100)
 
-                # Compute realistic power consumption
+                # Memory usage is correlated but can slightly vary
+                mem_usage = max(70, min(100, cpu_usage * random.uniform(0.9, 1.1) + random.uniform(-5, 5)))
+
+                # Compute power usage — higher sensitivity at high loads
                 power = (
                     params["base_power"]
                     + params["cpu_coeff"] * cpu_usage
@@ -47,14 +46,12 @@ try:
 
                 row = [timestamp, cpu_name, round(cpu_usage, 2), round(mem_usage, 2), round(power, 2)]
                 writer.writerow(row)
-                send_data(row)
+                # send_data(row)
 
-                # Print to console for visibility
                 print(f"[{timestamp}] {cpu_name} | CPU: {cpu_usage:.1f}% | MEM: {mem_usage:.1f}% | Power: {power:.2f} W")
 
-        # Wait 1 minute before next reading
-        time.sleep(30)
+        # Wait for 1 minute before next reading
+        time.sleep(60)
 
 except KeyboardInterrupt:
     print("\n Data generation stopped by user.")
-
